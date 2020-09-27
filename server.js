@@ -11,12 +11,12 @@ const port =process.env.PORT || 9000;
 //for:realtime :used pusher
 
 var pusher = new Pusher({
-  appId: '1071235',
-  key: 'b81c8ca60301b38c2ee3',
-  secret: '9d363ec45f76eb2d6ecc',
-  cluster: 'ap2',
-  encrypted: true
-});
+    appId: '1071235',
+    key: 'ec9d9f34ce3a534cffa4',
+    secret: 'd1741542aaeaf45f854d',
+    cluster: 'ap2',
+    encrypted: true
+  });
 
 
 //middleware
